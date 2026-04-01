@@ -48,5 +48,5 @@ function copyAssetsPlugin() {
 
 export default defineConfig({
   plugins: [react(), copyAssetsPlugin()],
-  base: '/WorldTravelingLogger/',
+  base: '/world_traveling_logger2/',
 });
