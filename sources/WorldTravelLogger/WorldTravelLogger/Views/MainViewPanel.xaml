@@ -1,0 +1,87 @@
+﻿<UserControl x:Class="WorldTravelLogger.Views.MainViewPanel"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WorldTravelLogger.Views"
+      mc:Ignorable="d" 
+      Loaded="UserControl_Loaded"
+      d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.Resources>
+            <BooleanToVisibilityConverter x:Key="BooleanToVisibility"/>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Menu>
+                <MenuItem Name="OptionMenu" Header="option" Click="OptionMenu_Click"/>
+                <MenuItem Name="DebugMenu" Header="debug" Click="DebugMenu_Click"/>
+            </Menu>
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.9*"/>
+                    <ColumnDefinition Width="1.0*"/>
+                    <ColumnDefinition Width="1.1*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="10"/>
+                </Grid.ColumnDefinitions>
+                <CheckBox Grid.Column="2" FontSize="13" HorizontalAlignment="Center" VerticalAlignment="Center" Content="with Insurance" IsChecked="{Binding IsWithInsurance,Mode=TwoWay}"/>
+
+                <CheckBox Grid.Column="3" FontSize="13" HorizontalAlignment="Center" VerticalAlignment="Center" Content="with Airplane" IsChecked="{Binding IsWithAirplane,Mode=TwoWay}"/>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <local:SideView x:Name="SideView"/>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="8*"/>
+                </Grid.RowDefinitions>
+                <local:UpperView x:Name="UpperView" Grid.Row="0"/>
+                <TabControl Grid.Row="1" FontSize="15" Margin="10,10,10,10" SelectedIndex="{Binding TabIndex,Mode=TwoWay}" >
+                    <TabItem Header="Accommodation">
+                        <local:AccommodationView x:Name="AccommodationViewPanel"/>
+                    </TabItem>
+                    <TabItem Header="Transportation">
+                        <local:TransportationView x:Name="TransporationViewPanel"/>
+                    </TabItem>
+                    <TabItem Header="Sightseeing">
+                        <local:SightseeingView x:Name="SightseeingViewPanel"/>
+                    </TabItem>
+                    <TabItem Header="Other">
+                        <local:OtherView x:Name="OtherViewPanel"/>
+                    </TabItem>
+                    <TabItem Header="Route" Visibility="{Binding IsCountry,Converter={StaticResource BooleanToVisibility}}" >
+                        <local:RouteView x:Name="RouteViewPanel" />
+                    </TabItem>
+                </TabControl>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <TextBlock Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top" Text="{Binding SetDate}"/>
+
+            <TextBlock Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Text="{Binding FileVer}" />
+
+            <TextBlock HorizontalAlignment="Right" Grid.Column="2" VerticalAlignment="Center" Text="@2025 Yomai Hiyashidewa" Margin="0,0,10,0"/>
+        </Grid>
+    </Grid>
+</UserControl>

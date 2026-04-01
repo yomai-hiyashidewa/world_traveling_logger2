@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\AccommodationView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\DebugWin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\MainViewPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OptionWindows.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OtherView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Parts\CountryListView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Parts\RouteCountryViewPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Parts\RouteRegionMiniViewPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Parts\RouteRegionsViewPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\RouteView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SideView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SightseeingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\TransportationView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\UpperView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AccommodationView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\DebugWin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MainViewPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\OptionWindows.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\OtherView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Parts\CountryListView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Parts\RouteCountryViewPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Parts\RouteRegionMiniViewPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Parts\RouteRegionsViewPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\RouteView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SideView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SightseeingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\TransportationView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\UpperView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

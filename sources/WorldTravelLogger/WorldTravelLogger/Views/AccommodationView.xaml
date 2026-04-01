@@ -1,0 +1,55 @@
+﻿<UserControl x:Class="WorldTravelLogger.Views.AccommodationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WorldTravelLogger.Views"
+             xmlns:converter="clr-namespace:WorldTravelLogger.Views.Converters"
+             xmlns:models="clr-namespace:WorldTravelLogger.Models"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.Resources>
+            <converter:EnumDisplayConverter x:Key="EnumDisplayConv"/>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="7*"/>
+        </Grid.RowDefinitions>
+        <DataGrid Grid.Row="0" AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  ItemsSource="{Binding TypeAccommodations,Mode=OneWay}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Type" Binding="{Binding Type}"/>
+                <DataGridTextColumn Header="Count" Binding="{Binding Count}"/>
+                <DataGridTextColumn Header="Total" Binding="{Binding TotalCostString}"/>
+                <DataGridTextColumn Header="Max" Binding="{Binding MaxCostString}"/>
+                <DataGridTextColumn Header="Min" Binding="{Binding MinCostString}"/>
+                <DataGridTextColumn Header="Ave" Binding="{Binding AveCoastString}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="9*"/>
+            </Grid.RowDefinitions>
+            <ComboBox HorizontalAlignment="Right"
+                      ItemsSource="{Binding CurrentAccommodationTypes}"
+                      SelectedItem="{Binding CurrentAccommodationType,Mode=TwoWay}"
+                      IsEnabled="{Binding EnableCurrentAccommodationType}"/>
+            <DataGrid Grid.Row="1" AutoGenerateColumns="False"
+                      IsReadOnly="True"
+                      ItemsSource="{Binding Accommodations,Mode=OneWay}">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="date" Binding="{Binding DateString}"/>
+                    <DataGridTextColumn Header="country" Binding="{Binding Country,Converter={StaticResource EnumDisplayConv}}" />
+                    <DataGridTextColumn Header="region" Binding="{Binding Region}"/>
+                    <DataGridTextColumn Header="cost" Binding="{Binding Price}"/>
+                    <DataGridTextColumn Header="currency" Binding="{Binding Currency,Converter={StaticResource EnumDisplayConv}}"/>
+                    <DataGridTextColumn Header="Yen cost" Binding="{Binding JPYPriceString}"/>
+                    <DataGridTextColumn Header="memo" Binding="{Binding Memo}" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</UserControl>

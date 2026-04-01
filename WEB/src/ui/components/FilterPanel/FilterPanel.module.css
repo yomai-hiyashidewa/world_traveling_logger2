@@ -1,0 +1,75 @@
+.filterPanel {
+  padding: 12px 16px;
+  background: #1e293b;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.filterRow {
+  display: flex;
+  gap: 16px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.filterRow label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+.filterRow select,
+.filterRow input {
+  padding: 6px 10px;
+  border: 1px solid #334155;
+  border-radius: 4px;
+  background: #0f172a;
+  color: #e2e8f0;
+  font-size: 0.85rem;
+}
+
+.checkLabel {
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: #94a3b8;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.checkLabel input[type="checkbox"] {
+  accent-color: #38bdf8;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.countrySelect {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.countrySelect select {
+  flex: 1;
+}
+
+.clearBtn {
+  padding: 6px 16px;
+  border: 1px solid #475569;
+  border-radius: 4px;
+  background: transparent;
+  color: #94a3b8;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.clearBtn:hover {
+  background: #334155;
+  color: #e2e8f0;
+}

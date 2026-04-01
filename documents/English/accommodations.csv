@@ -1,0 +1,716 @@
+﻿date,country,region,accomodation type,price,currency,memo
+2022/5/16,JPN,Kobe,ParentsHouse,0,JPY,-
+2022/5/17,UNK,-,Airplane,0,JPY,-
+2022/5/18,AUS,Sydney,Domitory,3165,JPY,Expedia
+2022/5/19,AUS,katoomba,Domitory,26.5,AUD,-
+2022/5/20,AUS,katoomba,Domitory,26.5,AUD,-
+2022/5/21,AUS,-,Bus,0,JPY,-
+2022/5/22,AUS,Melbourne,SingleRoom,50,AUD,-
+2022/5/23,AUS,Melbourne,Domitory,30,AUD,-
+2022/5/24,AUS,Island Philip,Domitory,33.75,AUD,-
+2022/5/25,AUS,Island Philip,Domitory,33.75,AUD,-
+2022/5/26,AUS,Melbourne,Domitory,25.11,AUD,-
+2022/5/27,AUS,Adelaide,Domitory,28.24,AUD,-
+2022/5/28,AUS,Adelaide,SingleRoom,89,AUD,-
+2022/5/29,AUS,Adelaide,Domitory,26.99,AUD,-
+2022/5/30,AUS,-,Bus,0,JPY,-
+2022/5/31,AUS,Alice Springs,Domitory,31,AUD,-
+2022/6/1,AUS,Alice Springs,Domitory,31,AUD,-
+2022/6/2,AUS,Alice Springs,Domitory,31,AUD,-
+2022/6/3,AUS,-,Bus,0,JPY,-
+2022/6/4,AUS,darwin,Domitory,32.4,AUD,-
+2022/6/5,AUS,darwin,Domitory,32.4,AUD,-
+2022/6/6,AUS,darwin,Domitory,32.4,AUD,-
+2022/6/7,AUS,cairns,Domitory,20.16,AUD,-
+2022/6/8,AUS,cairns,Domitory,22,AUD,-
+2022/6/9,AUS,palm cove,Domitory,43,AUD,-
+2022/6/10,AUS,cairns,Domitory,22,AUD,-
+2022/6/11,AUS,cairns,Domitory,22,AUD,-
+2022/6/12,AUS,townsville,Domitory,27,AUD,-
+2022/6/13,AUS,Airlie Beach,Domitory,27,AUD,-
+2022/6/14,AUS,Airlie Beach,Domitory,27,AUD,-
+2022/6/15,AUS,Airlie Beach,Domitory,27,AUD,-
+2022/6/16,AUS,-,Bus,0,JPY,-
+2022/6/17,AUS,Brisbane,Domitory,41.16,AUD,-
+2022/6/18,AUS,Gold coast,Domitory,19.44,AUD,-
+2022/6/19,AUS,Gold coast,Domitory,19.44,AUD,-
+2022/6/20,AUS,Brisbane,Domitory,27.72,AUD,-
+2022/6/21,AUS,Coffs Harbour,Domitory,27,AUD,-
+2022/6/22,AUS,Newcastle,Domitory,28.5,AUD,-
+2022/6/23,AUS,Newcastle,Domitory,28.5,AUD,-
+2022/6/24,AUS,Sydney,Domitory,23.49,AUD,-
+2022/6/25,AUS,Sydney,Domitory,23.49,AUD,-
+2022/6/26,AUS,Sydney,Domitory,32.76,AUD,-
+2022/6/27,JPN,Kobe,ParentsHouse,0,JPY,-
+2022/6/28,JPN,Kobe,ParentsHouse,0,JPY,-
+2022/6/29,JPN,Kobe,ParentsHouse,0,JPY,-
+2022/6/30,JPN,Kobe,ParentsHouse,0,JPY,-
+2022/7/1,JPN,-,Ferry,0,JPY,-
+2022/7/2,JPN,Hakata,Domitory,2640,JPY,-
+2022/7/3,JPN,-,Ferry,0,JPY,-
+2022/7/4,JPN,Kobe,ParentsHouse,0,JPY,-
+2022/7/5,JPN,Kobe,ParentsHouse,0,JPY,-
+2022/7/6,JPN,Kobe,ParentsHouse,0,JPY,-
+2022/7/7,JPN,Kobe,ParentsHouse,0,JPY,-
+2022/7/8,JPN,Toyoka,Domitory,2673,JPY,-
+2022/7/9,JPN,Toyoka,Domitory,2100,JPY,with my firend
+2022/7/10,JPN,Kobe,ParentsHouse,0,JPY,-
+2022/7/11,JPN,Kobe,ParentsHouse,0,JPY,-
+2022/7/12,JPN,Kobe,ParentsHouse,0,JPY,-
+2022/7/13,USA,Anchorage,Domitory,59.83,USD,Airplane night
+2022/7/14,USA,Anchorage,SingleRoom,150,USD,-
+2022/7/15,USA,Anchorage,SingleRoom,150,USD,-
+2022/7/16,USA,Anchorage,SingleRoom,150,USD,-
+2022/7/17,CAN,Vancouver,Domitory,54.27,CAD,Expedia
+2022/7/18,CAN,Vancouver,Domitory,5532,JPY,-
+2022/7/19,CAN,Vancouver,Domitory,5532,JPY,-
+2022/7/20,CAN,Nanaimo,Domitory,55.68,CAD,-
+2022/7/21,CAN,Vancouver,Domitory,46.99,CAD,-
+2022/7/22,CAN,-,Train,0,JPY,-
+2022/7/23,CAN,Edomonton,Domitory,39.81,CAD,-
+2022/7/24,CAN,Edomonton,Domitory,39.81,CAD,-
+2022/7/25,CAN,Saskatoon,SingleRoom,66.6,CAD,-
+2022/7/26,CAN,Saskatoon,SingleRoom,66.6,CAD,-
+2022/7/27,CAN,Regina,SingleRoom,66.6,CAD,-
+2022/7/28,CAN,Regina,SingleRoom,66.6,CAD,-
+2022/7/29,CAN,-,Bus,0,JPY,-
+2022/7/30,CAN,Winnipeg,SingleRoom,46.79,CAD,-
+2022/7/31,CAN,-,Train,0,JPY,-
+2022/8/1,CAN,-,Train,0,JPY,-
+2022/8/2,CAN,Toronto,Domitory,46,CAD,-
+2022/8/3,CAN,Toronto,Domitory,46.68,CAD,-
+2022/8/4,CAN,Toronto,Domitory,46.68,CAD,-
+2022/8/5,CAN,Montréal,Domitory,56.93,CAD,-
+2022/8/6,CAN,Québec,Domitory,36,CAD,-
+2022/8/7,CAN,Montréal,Domitory,56.93,CAD,-
+2022/8/8,MEX,Mexico City,SingleRoom,300,MXP,Expedia
+2022/8/9,MEX,Mexico City,Domitory,178.5,MXP,-
+2022/8/10,MEX,Mexico City,Domitory,178.5,MXP,-
+2022/8/11,MEX,Mexico City,Domitory,178.5,MXP,-
+2022/8/12,MEX,Querétaro,Domitory,173.2,MXP,-
+2022/8/13,MEX,Guanajuato,Domitory,280.5,MXP,-
+2022/8/14,MEX,Guanajuato,Domitory,280.5,MXP,-
+2022/8/15,MEX,Morelia,Domitory,200,MXP,-
+2022/8/16,MEX,Puebla,Domitory,114.7,MXP,-
+2022/8/17,MEX,Puebla,Domitory,114.7,MXP,-
+2022/8/18,MEX,Veracruz,Domitory,143.67,MXP,-
+2022/8/19,MEX,Veracruz,Domitory,143.67,MXP,-
+2022/8/20,MEX,Coatzacoalcos,SingleRoom,400,MXP,-
+2022/8/21,MEX,Palenque,Domitory,236,MXP,-
+2022/8/22,MEX,Palenque,Domitory,236,MXP,-
+2022/8/23,MEX,Campeche,Domitory,152.16,MXP,-
+2022/8/24,MEX,Merida,Domitory,140.5,MXP,-
+2022/8/25,MEX,Merida,Domitory,140.5,MXP,-
+2022/8/26,MEX,Cancun,Domitory,180.635,MXP,-
+2022/8/27,MEX,Playa del Carmen,Domitory,227.7,MXP,-
+2022/8/28,MEX,Cancun,Domitory,274.59,MXP,-
+2022/8/29,CUB,habana,SingleRoom,1572,JPY,Expedia
+2022/8/30,CUB,habana,SingleRoom,25,USD,-
+2022/8/31,CUB,habana,SingleRoom,25,USD,-
+2022/9/1,CUB,habana,SingleRoom,8278,JPY,Expedia
+2022/9/2,CUB,habana,SingleRoom,8278,JPY,Expedia
+2022/9/3,MEX,Cancun,Domitory,283.5,MXP,-
+2022/9/4,MEX,Cancun,Domitory,283.5,MXP,-
+2022/9/5,MEX,Chetumal,Domitory,185.28,MXP,-
+2022/9/6,BLZ,Belize city,Domitory,26,USD,-
+2022/9/7,BLZ,San Ignacio,Domitory,11.25,USD,-
+2022/9/8,BLZ,San Ignacio,Domitory,11.25,USD,-
+2022/9/9,GTM,Flores,Domitory,8.57,USD,-
+2022/9/10,GTM,Flores,Domitory,8.57,USD,-
+2022/9/11,GTM,Cobán,SingleRoom,15.99,USD,-
+2022/9/12,GTM,Antigua,Domitory,6.65,USD,-
+2022/9/13,SLV,Santa Ana,Domitory,5.13,USD,-
+2022/9/14,SLV,Santa Ana,Domitory,5.13,USD,-
+2022/9/15,SLV,Santa Ana,Domitory,7.14,USD,-
+2022/9/16,SLV,Santa Ana,Domitory,7.14,USD,-
+2022/9/17,SLV,El Tunco,Domitory,15,USD,-
+2022/9/18,NIC,Leon,Domitory,6,USD,-
+2022/9/19,NIC,Leon,Domitory,6,USD,-
+2022/9/20,NIC,Managua,Domitory,11,USD,-
+2022/9/21,NIC,Guranada,Domitory,6,USD,-
+2022/9/22,NIC,Island Ometepe,SingleRoom,8,USD,-
+2022/9/23,NIC,Island Ometepe,SingleRoom,8,USD,-
+2022/9/24,CRI,Liberia,Domitory,10,USD,-
+2022/9/25,CRI,Puntarenas,SingleRoom,21.64,USD,-
+2022/9/26,CRI,Alajuela,SingleRoom,30,USD,-
+2022/9/27,CRI,San José,Domitory,9.26,USD,-
+2022/9/28,CRI,PalmarNorte,SingleRoom,28,USD,-
+2022/9/29,PAN,David,Domitory,12,USD,-
+2022/9/30,PAN,David,Domitory,12,USD,-
+2022/10/1,PAN,Boquete,Domitory,10,USD,-
+2022/10/2,PAN,Santiago de Veraguas,Domitory,14.42,USD,-
+2022/10/3,PAN,Santa Catalina,Domitory,14.85,USD,-
+2022/10/4,PAN,Santa Catalina,Domitory,14.85,USD,-
+2022/10/5,PAN,Santiago de Veraguas,Domitory,14.42,USD,-
+2022/10/6,PAN,Panama City,Domitory,10.22,USD,-
+2022/10/7,PAN,Panama City,Domitory,10.22,USD,-
+2022/10/8,PAN,Panama City,Domitory,10.22,USD,-
+2022/10/9,COL,Bogota,SingleRoom,22,USD,Expedia
+2022/10/10,COL,Bogota,Domitory,24300,COP,-
+2022/10/11,COL,Villa de Leyva,Domitory,5.05,USD,-
+2022/10/12,COL,Villa de Leyva,Domitory,5.05,USD,-
+2022/10/13,COL,Zipaquirá,SingleRoom,14.22,USD,-
+2022/10/14,COL,Melgar,SingleRoom,200000,COP,be introduced from police
+2022/10/15,COL,Ibage,Domitory,56000,COP,-
+2022/10/16,COL,Ibage,Domitory,56000,COP,-
+2022/10/17,COL,Pereira,Domitory,10.51,USD,-
+2022/10/18,COL,kari,Domitory,6.47,USD,-
+2022/10/19,COL,kari,Domitory,6.47,USD,-
+2022/10/20,COL,Manizales,Domitory,10.28,USD,-
+2022/10/21,COL,Honda,SingleRoom,60000,COP,-
+2022/10/22,COL,Bogota,Domitory,5.59,USD,-
+2022/10/23,COL,Bogota,Domitory,5.59,USD,-
+2022/10/24,ECU,Quito,Domitory,6.3,USD,-
+2022/10/25,ECU,Quito,Domitory,6.3,USD,-
+2022/10/26,ECU,ibara,SingleRoom,8.1,USD,-
+2022/10/27,ECU,Otavalo,Domitory,8.5,USD,-
+2022/10/28,ECU,Otavalo,Domitory,8.5,USD,-
+2022/10/29,ECU,Quito,Domitory,5.4,USD,-
+2022/10/30,ECU,Santo Domingo,SingleRoom,10.8,USD,-
+2022/10/31,ECU,manta,SingleRoom,10,USD,-
+2022/11/1,ECU,Salinas,Domitory,7,USD,-
+2022/11/2,ECU,Santiago de Guayaquil,Domitory,9,USD,-
+2022/11/3,ECU,Santiago de Guayaquil,Domitory,9,USD,-
+2022/11/4,ECU,riobamba,SingleRoom,10.3,USD,-
+2022/11/5,ECU,arausi,Domitory,10,USD,-
+2022/11/6,ECU,Cuenca,Domitory,6.3,USD,-
+2022/11/7,ECU,Cuenca,Domitory,6.3,USD,-
+2022/11/8,PER,Tumbes,SingleRoom,25,USD,-
+2022/11/9,PER,Máncora,Domitory,8.5,USD,-
+2022/11/10,PER,Piura,SingleRoom,11.48,USD,-
+2022/11/11,PER,Chiclayo,SingleRoom,9.72,USD,-
+2022/11/12,PER,Cajamarca,Domitory,3.83,USD,-
+2022/11/13,PER,Cajamarca,Domitory,4.59,USD,-
+2022/11/14,PER,Trujillo,Domitory,6.5,USD,-
+2022/11/15,PER,Trujillo,Domitory,6.5,USD,-
+2022/11/16,PER,Huaraz,Domitory,3,USD,-
+2022/11/17,PER,Huaraz,Domitory,3,USD,-
+2022/11/18,PER,Lima,Domitory,7.22,USD,-
+2022/11/19,PER,Lima,Domitory,7.22,USD,-
+2022/11/20,PER,Ika,Domitory,5.95,USD,-
+2022/11/21,PER,Nazca,Domitory,8.1,USD,-
+2022/11/22,PER,Nazca,Domitory,8.1,USD,-
+2022/11/23,PER,-,Bus,0,USD,-
+2022/11/24,PER,Arequipa,Domitory,6,USD,-
+2022/11/25,PER,Arequipa,Domitory,6,USD,-
+2022/11/26,CHL,Arica,Domitory,12102,CLP,-
+2022/11/27,CHL,Arica,Domitory,12102,CLP,-
+2022/11/28,CHL,Iquique,Domitory,14,USD,-
+2022/11/29,CHL,Iquique,Domitory,14,USD,-
+2022/11/30,CHL,Antofagasta,SingleRoom,20306,CLP,-
+2022/12/1,CHL,La Serena,SingleRoom,18439,CLP,-
+2022/12/2,CHL,La Serena,Domitory,16.19,USD,-
+2022/12/3,CHL,Santiago de Chile,Domitory,11.83,USD,-
+2022/12/4,CHL,Santiago de Chile,Domitory,11.83,USD,-
+2022/12/5,CHL,Santiago de Chile,Domitory,11.83,USD,-
+2022/12/6,CHL,Copiapó,SingleRoom,18813,CLP,-
+2022/12/7,CHL,Antofagasta,SingleRoom,20306,CLP,-
+2022/12/8,CHL,San Pedro de Atacama,Domitory,11637,CLP,-
+2022/12/9,CHL,San Pedro de Atacama,Domitory,11637,CLP,-
+2022/12/10,CHL,Calama,SingleRoom,12.93,USD,-
+2022/12/11,BOL,Uyuni,Domitory,10.87,USD,-
+2022/12/12,BOL,Uyuni,Domitory,10.87,USD,-
+2022/12/13,BOL,Potosí,SingleRoom,13.04,USD,-
+2022/12/14,BOL,Sucre,Domitory,7.96,USD,-
+2022/12/15,BOL,Sucre,Domitory,7.96,USD,-
+2022/12/16,BOL,-,Bus,0,JPY,-
+2022/12/17,BOL,La Paz,Domitory,6.89,USD,-
+2022/12/18,BOL,La Paz,Domitory,6.89,USD,-
+2022/12/19,BOL,Copacabana,SingleRoom,5.5,USD,-
+2022/12/20,PER,Puno,Domitory,5.76,USD,-
+2022/12/21,PER,Puno,Domitory,5.76,USD,-
+2022/12/22,BOL,La Paz,Domitory,8.75,USD,-
+2022/12/23,BOL,Ciudad de Cochabamba,Domitory,11.5,USD,-
+2022/12/24,BOL,Ciudad de Cochabamba,Domitory,11.5,USD,-
+2022/12/25,BOL,Ciudad de Cochabamba,Domitory,11.5,USD,-
+2022/12/26,BOL,Santa Cruz de la Sierra,Domitory,10,USD,-
+2022/12/27,BOL,Santa Cruz de la Sierra,Domitory,10,USD,-
+2022/12/28,BOL,Santa Cruz de la Sierra,Domitory,10,USD,-
+2022/12/29,BOL,-,Bus,0,JPY,-
+2022/12/30,BOL,Tarija,SingleRoom,11.57,USD,-
+2022/12/31,BOL,Tarija,SingleRoom,11.57,USD,-
+2023/1/1,BOL,Tarija,SingleRoom,11.57,USD,-
+2023/1/2,BOL,-,Bus,0,JPY,-
+2023/1/3,ARG,Jujuy,Domitory,947,ARS,-
+2023/1/4,ARG,Salta,Domitory,1067,ARS,-
+2023/1/5,ARG,Salta,Domitory,1067,ARS,-
+2023/1/6,ARG,Cafayate,Domitory,1258,ARS,-
+2023/1/7,ARG,-,Bus,0,JPY,-
+2023/1/8,ARG,Corrientes,SingleRoom,2400,ARS,-
+2023/1/9,ARG,Puerto Iguazu,Domitory,1238,ARS,-
+2023/1/10,ARG,Puerto Iguazu,Domitory,1238,ARS,-
+2023/1/11,PRY,Yguazú,SingleRoom,20,USD,Minsyuku Kobayashi
+2023/1/12,PRY,Yguazú,SingleRoom,20,USD,Minsyuku Kobayashi
+2023/1/13,PRY,Yguazú,SingleRoom,20,USD,Minsyuku Kobayashi
+2023/1/14,PRY,Yguazú,SingleRoom,10,USD,Pension Sonoda
+2023/1/15,PRY,Encarnación,Domitory,7.2,USD,-
+2023/1/16,PRY,Encarnación,Domitory,7.2,USD,-
+2023/1/17,PRY,Ciudad de Asunción,Domitory,9.5,USD,-
+2023/1/18,PRY,Ciudad de Asunción,Domitory,9.5,USD,-
+2023/1/19,ARG,Resistencia,SingleRoom,2038,ARS,-
+2023/1/20,ARG,Santa Fe de la Vera Cruz,Domitory,888,ARS,-
+2023/1/21,ARG,Santa Fe de la Vera Cruz,Domitory,888,ARS,-
+2023/1/22,ARG,Córdoba,Domitory,1036,ARS,-
+2023/1/23,ARG,Córdoba,Domitory,1036,ARS,-
+2023/1/24,ARG,-,Bus,0,JPY,-
+2023/1/25,ARG,Bahía Blanca,SingleRoom,2590,ARS,-
+2023/1/26,ARG,Mar del Plata,Domitory,1702,ARS,-
+2023/1/27,ARG,Mar del Plata,Domitory,500,ARS,-
+2023/1/28,ARG,La Plata,SingleRoom,7600,ARS,-
+2023/1/29,ARG,Buenos Aires,Domitory,1184,ARS,-
+2023/1/30,ARG,Buenos Aires,Domitory,1184,ARS,-
+2023/1/31,URY,Colonia del Sacramento,Domitory,17.665,USD,-
+2023/2/1,URY,Colonia del Sacramento,Domitory,17.665,USD,-
+2023/2/2,URY,Montevideo,Domitory,14.5,USD,-
+2023/2/3,URY,Montevideo,Domitory,14.5,USD,-
+2023/2/4,URY,Punta del Este,Domitory,14.4,USD,-
+2023/2/5,URY,Cabo Polonio,Domitory,13,USD,-
+2023/2/6,URY,Punta del Diablo,Domitory,18,USD,-
+2023/2/7,URY,Punta del Diablo,Domitory,18,USD,-
+2023/2/8,BRA,Pelotas,Domitory,55,BRL,-
+2023/2/9,BRA,Pelotas,Domitory,55,BRL,-
+2023/2/10,BRA,Porto Alegre,Domitory,46.8,BRL,-
+2023/2/11,BRA,Porto Alegre,Domitory,46.8,BRL,-
+2023/2/12,BRA,Criciúma,SingleRoom,79,BRL,-
+2023/2/13,BRA,Florianópolis,Domitory,45,BRL,-
+2023/2/14,BRA,Florianópolis,Domitory,45,BRL,-
+2023/2/15,BRA,Blumenau,Domitory,59,BRL,-
+2023/2/16,BRA,Curitiba,Domitory,48.13,BRL,-
+2023/2/17,BRA,Curitiba,Domitory,48.13,BRL,-
+2023/2/18,BRA,Londrina,SingleRoom,75,BRL,-
+2023/2/19,BRA,Presidente Prudente,SingleRoom,75,BRL,-
+2023/2/20,BRA,Campo Grande,Domitory,60,BRL,-
+2023/2/21,BRA,Campo Grande,Domitory,60,BRL,-
+2023/2/22,BRA,Bonito,Domitory,64.8,BRL,-
+2023/2/23,BRA,Corumbá,Domitory,63.36,BRL,-
+2023/2/24,BRA,Corumbá,Domitory,63.36,BRL,-
+2023/2/25,BRA,Campo Grande,SingleRoom,80,BRL,-
+2023/2/26,BRA,aracatuba,SingleRoom,89.1,BRL,-
+2023/2/27,BRA,Ribeirão Preto,SingleRoom,45,BRL,-
+2023/2/28,BRA,Belo Horizonte,Domitory,35,BRL,-
+2023/3/1,BRA,Ouro Preto,Domitory,51.6,BRL,-
+2023/3/2,BRA,Ouro Preto,Domitory,51.6,BRL,-
+2023/3/3,BRA,Belo Horizonte,Domitory,45,BRL,-
+2023/3/4,BRA,Campinas,SingleRoom,100,BRL,-
+2023/3/5,BRA,Campinas,SingleRoom,100,BRL,-
+2023/3/6,UNK,-,Airplane,0,JPY,-
+2023/3/7,PRT,Lisbon,Domitory,1011,JPY,Expedia
+2023/3/8,PRT,Lisbon,Domitory,14.46,EUR,-
+2023/3/9,PRT,Lisbon,Domitory,14.46,EUR,-
+2023/3/10,PRT,Porto,Domitory,15.3,EUR,-
+2023/3/11,ESP,Vigo,Domitory,21.6,EUR,-
+2023/3/12,ESP,Leon,Domitory,22.63,EUR,-
+2023/3/13,ESP,Madrid,Domitory,15.19,EUR,-
+2023/3/14,ESP,Madrid,Domitory,15.19,EUR,-
+2023/3/15,ESP,Madrid,Domitory,15.19,EUR,-
+2023/3/16,ESP,Madrid,Domitory,15.19,EUR,-
+2023/3/17,ESP,Córdoba,Domitory,22.76,EUR,-
+2023/3/18,ESP,Málaga,Domitory,17.1,EUR,-
+2023/3/19,ESP,Madrid,Domitory,18.2,EUR,-
+2023/3/20,UNK,-,Airplane,0,JPY,-
+2023/3/21,UNK,-,Airplane,0,JPY,-
+2023/3/22,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/3/23,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/3/24,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/3/25,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/3/26,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/3/27,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/3/28,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/3/29,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/3/30,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/3/31,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/1,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/2,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/3,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/4,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/5,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/6,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/7,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/8,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/9,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/10,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/11,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/12,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/13,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/14,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/15,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/16,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/17,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/18,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/19,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/20,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/21,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/22,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/23,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/24,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/25,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/26,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/27,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/28,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/29,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/4/30,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/1,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/2,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/3,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/4,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/5,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/6,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/7,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/8,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/9,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/10,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/11,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/12,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/13,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/14,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/15,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/16,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/17,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/18,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/19,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/20,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/21,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/22,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/23,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/24,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/25,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/26,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/27,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/5/28,JPN,Osaka,Airport,0,JPY,-
+2023/5/29,TWN,Taipei,Domitory,2134,JPY,-
+2023/5/30,TWN,Taipei,Domitory,2134,JPY,-
+2023/5/31,TWN,Taichung ,Domitory,1537,JPY,-
+2023/6/1,TWN,Tainan,Domitory,1897,JPY,-
+2023/6/2,TWN,Kaohsiung,Domitory,1579,JPY,-
+2023/6/3,PHL,Manila,SingleRoom,3250,JPY,Expedia
+2023/6/4,PHL,Manila,Domitory,888,JPY,-
+2023/6/5,PHL,Manila,Domitory,888,JPY,-
+2023/6/6,PHL,Puerto Galera,Domitory,959,JPY,-
+2023/6/7,PHL,Puerto Galera,Domitory,959,JPY,-
+2023/6/8,PHL,Mabini,Domitory,959,JPY,-
+2023/6/9,PHL,Angeles,SingleRoom,1586,JPY,-
+2023/6/10,PHL,Balanga,SingleRoom,1425,JPY,-
+2023/6/11,PHL,Manila,Domitory,1597,JPY,-
+2023/6/12,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/6/13,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/6/14,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/6/15,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/6/16,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/6/17,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/6/18,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/6/19,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/6/20,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/6/21,VNM,Hà Nội ,SingleRoom,1723,JPY,Expedia
+2023/6/22,GBR,London,Domitory,18.71,EUR,-
+2023/6/23,GBR,London,Airport,0,EUR,-
+2023/6/24,ISL,Reykjavík,Domitory,47.4,EUR,-
+2023/6/25,ISL,Reykjavík,Domitory,47.4,EUR,-
+2023/6/26,ISL,Reykjavík,Domitory,47.4,EUR,-
+2023/6/27,ISL,Reykjavík,Domitory,39.89,EUR,-
+2023/6/28,IRL,Dublin,Domitory,33.36,EUR,-
+2023/6/29,GBR,Belfast,Domitory,22.68,EUR,-
+2023/6/30,GBR,Belfast,Domitory,33.91,EUR,-
+2023/7/1,GBR,Glasgow,Domitory,30.4,EUR,-
+2023/7/2,GBR,Cardiff,Domitory,20.35,EUR,-
+2023/7/3,GBR,Bath,Domitory,21.05,EUR,-
+2023/7/4,GBR,London,Domitory,24.05,EUR,-
+2023/7/5,FRA,Lille,Domitory,19.87,EUR,-
+2023/7/6,FRA,Lille,Domitory,19.87,EUR,-
+2023/7/7,BEL,Namur,Domitory,31,EUR,-
+2023/7/8,BEL,Leuven,Domitory,31,EUR,-
+2023/7/9,NLD,Amsterdam,Domitory,20.69,EUR,-
+2023/7/10,DEU,Osnabrück,Domitory,19,EUR,-
+2023/7/11,DEU,Flensburg,Domitory,24.3,EUR,-
+2023/7/12,DNK,Kopenhagen,Domitory,24.79,EUR,-
+2023/7/13,SWE,Helsingborg,SingleRoom,30.33,EUR,-
+2023/7/14,NOR,Oslo,Domitory,29.8,EUR,-
+2023/7/15,NOR,-,Train,0,JPY,-
+2023/7/16,NOR,Narvik,Domitory,26.03,EUR,-
+2023/7/17,NOR,Narvik,Domitory,26.03,EUR,-
+2023/7/18,SWE,Luleå,SingleRoom,32.04,EUR,-
+2023/7/19,FIN,Rovaniemi,Domitory,29.6,EUR,-
+2023/7/20,FIN,Helsinki,Domitory,16.14,EUR,-
+2023/7/21,FIN,Helsinki,Domitory,16.14,EUR,-
+2023/7/22,EST,Tallinn,Domitory,13.86,EUR,-
+2023/7/23,LVA,Riga,Domitory,12.03,EUR,-
+2023/7/24,LTU,Vilnius,Domitory,15,EUR,-
+2023/7/25,LTU,Kaunas,Domitory,13.82,EUR,-
+2023/7/26,POL,Białystok,Domitory,6.84,EUR,-
+2023/7/27,POL,Kraków,Domitory,10.99,EUR,-
+2023/7/28,POL,Wrocław,Domitory,14.81,EUR,-
+2023/7/29,DEU,Leipzig,Domitory,19.13,EUR,-
+2023/7/30,DEU,Stuttgart,Domitory,16.79,EUR,-
+2023/7/31,CZE,tabor,Domitory,14.69,EUR,-
+2023/8/1,SVK,Banska Bystrica,Domitory,18.45,EUR,-
+2023/8/2,SVK,Kurompachy,SingleRoom,17.5,EUR,-
+2023/8/3,HUN,Budapest,Domitory,15.32,EUR,-
+2023/8/4,HUN,Budapest,Domitory,15.32,EUR,-
+2023/8/5,CZE,Brno,Domitory,18.94,EUR,-
+2023/8/6,AUT,Innsbruck,Domitory,38,EUR,-
+2023/8/7,CHE,Lugano,Domitory,33.21,EUR,-
+2023/8/8,FRA,Lyon,Domitory,26.03,EUR,-
+2023/8/9,FRA,Clermont-Ferrand,Domitory,19,EUR,-
+2023/8/10,FRA,Colomiers,Domitory,22,EUR,-
+2023/8/11,FRA,La Réole,Domitory,27.9,EUR,-
+2023/8/12,ESP,pamplona,Domitory,20.7,EUR,-
+2023/8/13,ESP,toledo,Domitory,18.36,EUR,-
+2023/8/14,ESP,Sevilla,Domitory,12,EUR,-
+2023/8/15,MAR,Tangier,Domitory,14.5,EUR,-
+2023/8/16,MAR,Chefchaouen,Domitory,5.76,EUR,-
+2023/8/17,MAR,Fes,Domitory,4.56,EUR,-
+2023/8/18,MAR,Meknès,Domitory,9.72,EUR,-
+2023/8/19,MAR,Rabat,SingleRoom,15,EUR,-
+2023/8/20,MAR,Essaouira,Domitory,10.14,EUR,-
+2023/8/21,MAR,Tiznit,SingleRoom,11.35,EUR,-
+2023/8/22,MAR,marrakech,Domitory,7.7,EUR,-
+2023/8/23,MAR,marrakech,Domitory,7.7,EUR,-
+2023/8/24,MAR,marrakech,Domitory,7.7,EUR,-
+2023/8/25,MAR,Ouarzazate,Domitory,6.12,EUR,-
+2023/8/26,MAR,Errachidia,SingleRoom,18.23,EUR,-
+2023/8/27,MAR,Meknès,Domitory,9.72,EUR,-
+2023/8/28,MAR,Fes,Domitory,4.28,EUR,-
+2023/8/29,MAR,Oujda,SingleRoom,18,EUR,-
+2023/8/30,ESP,Almería,Domitory,21,EUR,-
+2023/8/31,ESP,Granada,Domitory,13.02,EUR,-
+2023/9/1,ESP,Valencia,Domitory,18.66,EUR,-
+2023/9/2,AND,Andorra la Vieja,Domitory,27,EUR,-
+2023/9/3,FRA,Carcassonne,Domitory,25.92,EUR,-
+2023/9/4,FRA,Nice,Domitory,5364,JPY,-
+2023/9/5,ITA,Milano,FriendHouse,0,EUR,Mruco
+2023/9/6,ITA,Pisa,Domitory,23.04,EUR,-
+2023/9/7,SMR,San Marino,Domitory,18.54,EUR,-
+2023/9/8,ITA,San Vito al Tagliamento,Domitory,19,EUR,-
+2023/9/9,SVN,Lubiana,Domitory,19.9,EUR,-
+2023/9/10,HRV,zagreb,Domitory,17.64,EUR,-
+2023/9/11,HRV,split,Domitory,17.01,EUR,-
+2023/9/12,HRV,dubrovnik,Domitory,26,EUR,-
+2023/9/13,ITA,Bari ,Domitory,30.64,EUR,-
+2023/9/14,ITA,Roma,Domitory,27.49,EUR,-
+2023/9/15,ITA,naples,Domitory,11.52,EUR,-
+2023/9/16,ITA,vallo scaro,Domitory,24,EUR,-
+2023/9/17,ITA,Pompei,Domitory,9.36,EUR,-
+2023/9/18,UNK,-,Ferry,0,JPY,-
+2023/9/19,TUN,tunis,SingleRoom,20,EUR,-
+2023/9/20,TUN,Sousse,Domitory,16.2,EUR,-
+2023/9/21,TUN,Sousse,Domitory,1937,JPY,Expedia
+2023/9/22,TUN,tunis,Domitory,19,EUR,-
+2023/9/23,UNK,-,Ferry,0,JPY,-
+2023/9/24,ITA,Palermo,Domitory,19.8,EUR,-
+2023/9/25,ITA,Siracusa,Domitory,24,EUR,-
+2023/9/26,ITA,Catania,Domitory,17,EUR,-
+2023/9/27,ITA,Catania,Domitory,17,EUR,-
+2023/9/28,ITA,Taranto,SingleRoom,21.45,EUR,-
+2023/9/29,UNK,-,Ferry,0,JPY,-
+2023/9/30,GRC,Ioannina,Domitory,18,EUR,-
+2023/10/1,GRC,Thessaloníki,Domitory,16,EUR,-
+2023/10/2,MKD,Skopje,Domitory,9.9,EUR,-
+2023/10/3,MKD,Skopje,Domitory,9.9,EUR,-
+2023/10/4,MKD,Ohrid,Domitory,10,EUR,-
+2023/10/5,MKD,Ohrid,Domitory,10,EUR,-
+2023/10/6,ALB,Berat,Domitory,11,EUR,-
+2023/10/7,ALB,Sarandë,Domitory,7.49,EUR,-
+2023/10/8,ALB,Vlorë,Domitory,9.9,EUR,-
+2023/10/9,ALB,Tirana,Domitory,9.18,EUR,-
+2023/10/10,KVX,Prizren,Domitory,8.57,EUR,-
+2023/10/11,KVX,Peja ,Domitory,11.46,EUR,-
+2023/10/12,MNE,Ulcinj,Domitory,7.14,EUR,-
+2023/10/13,MNE,Podgorica,Domitory,11.49,EUR,-
+2023/10/14,MNE,Žabljak,SingleRoom,11.7,EUR,-
+2023/10/15,MNE,Cetinje,SingleRoom,10,EUR,-
+2023/10/16,BIH,Sarajevo,Domitory,7.2,EUR,-
+2023/10/17,BIH,Sarajevo,Domitory,7.2,EUR,-
+2023/10/18,BIH,Mostar,Domitory,11.58,EUR,-
+2023/10/19,BIH,Banja Luka,Domitory,13,EUR,-
+2023/10/20,BIH,Jajce,Domitory,8,EUR,-
+2023/10/21,BIH,Tuzla,SingleRoom,12.6,EUR,-
+2023/10/22,SRB,Beograd,Domitory,11.25,EUR,-
+2023/10/23,SRB,Novi Sad,Domitory,11.7,EUR,-
+2023/10/24,SRB,Novi Sad,Domitory,11.7,EUR,-
+2023/10/25,SRB,Niš,Domitory,10,EUR,-
+2023/10/26,SRB,Niš,Domitory,12,EUR,-
+2023/10/27,BGR,Sofia,Domitory,12.42,EUR,-
+2023/10/28,BGR,Sofia,Domitory,12.42,EUR,-
+2023/10/29,BGR,Plovdiv,Domitory,8.09,EUR,-
+2023/10/30,BGR,Veliko Tarnovo,Domitory,11.25,EUR,-
+2023/10/31,ROU,Bucharest,Domitory,8.86,EUR,-
+2023/11/1,ROU,Brașov,Domitory,11.65,EUR,-
+2023/11/2,ROU,Sibiu,Domitory,10.31,EUR,-
+2023/11/3,ROU,Cluj-Napoca,Domitory,16.64,EUR,-
+2023/11/4,ROU,Iași,Domitory,16.07,EUR,-
+2023/11/5,MDA,Chișinău,Domitory,10.98,EUR,-
+2023/11/6,MDA,Comrat,SingleRoom,12.75,EUR,-
+2023/11/7,ROU,Galaţi,SingleRoom,25.12,EUR,-
+2023/11/8,ROU,Constanța,SingleRoom,19.89,EUR,-
+2023/11/9,BGR,Varna,Domitory,10.12,EUR,-
+2023/11/10,BGR,Varna,Domitory,8.28,EUR,-
+2023/11/11,TUR,istanbul,Domitory,7.72,EUR,-
+2023/11/12,TUR,istanbul,Domitory,1861,JPY,-
+2023/11/13,TUR,Çanakkale,SingleRoom,503.24,TRY,-
+2023/11/14,TUR,İzmir,Domitory,2190,JPY,-
+2023/11/15,TUR,Denizli,SingleRoom,366.02,TRY,-
+2023/11/16,TUR,Antalya,Domitory,309.25,TRY,-
+2023/11/17,TUR,Antalya,SingleRoom,276.91,TRY,-
+2023/11/18,TUR,Konya,Domitory,231.58,TRY,-
+2023/11/19,TUR,Ankara,Domitory,431.45,TRY,-
+2023/11/20,TUR,Ankara,Domitory,431.45,TRY,-
+2023/11/21,ARE,Abu Dhabi,Domitory,15.76,EUR,-
+2023/11/22,CYP,Larnaca,Domitory,14,EUR,-
+2023/11/23,CYP,paphos,Domitory,23,EUR,-
+2023/11/24,ARE,Abu Dhabi,Airport,0,JPY,-
+2023/11/25,EGY,alexandria,SingleRoom,7.79,USD,-
+2023/11/26,EGY,alexandria,SingleRoom,7.85,USD,-
+2023/11/27,EGY,Port Said,SingleRoom,823,EGP,-
+2023/11/28,EGY,Cairo,Domitory,6.04,USD,-
+2023/11/29,EGY,Giza,Domitory,3,EUR,-
+2023/11/30,EGY,Cairo,SingleRoom,8.98,USD,-
+2023/12/1,EGY,Sohag,SingleRoom,15,EUR,-
+2023/12/2,ARE,Abu Dhabi,Airport,0,JPY,-
+2023/12/3,UZB,Toshkent,Domitory,7.06,USD,-
+2023/12/4,UZB,Samarkand,Domitory,7.06,USD,-
+2023/12/5,UZB,Toshkent,Domitory,6.87,USD,-
+2023/12/6,UNK,-,Airplane,0,JPY,-
+2023/12/7,KOR,Seoul,Domitory,16756,KRW,-
+2023/12/8,KOR,Daejeon,Domitory,17915,KRW,-
+2023/12/9,KOR,Gwangju,Domitory,20188,KRW,-
+2023/12/10,KOR,Busan,Domitory,15562,KRW,-
+2023/12/11,UNK,-,Ferry,0,JPY,-
+2023/12/12,JPN,Hakata,FriendHouse,0,JPY,my brother
+2023/12/13,JPN,Beppu,Domitory,2200,JPY,-
+2023/12/14,JPN,Beppu,Domitory,2200,JPY,-
+2023/12/15,JPN,Matsuyama,Domitory,2397,JPY,-
+2023/12/16,JPN,Onomichi,Domitory,3000,JPY,-
+2023/12/17,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/12/18,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/12/19,JPN,Nagoya,Domitory,2559,JPY,-
+2023/12/20,JPN,Nagoya,Domitory,2559,JPY,-
+2023/12/21,JPN,Kofu,Domitory,2690,JPY,-
+2023/12/22,JPN,Akabane,Domitory,2583,JPY,-
+2023/12/23,JPN,Kamakura,Domitory,3022,JPY,-
+2023/12/24,JPN,Odawara,Domitory,3089,JPY,-
+2023/12/25,JPN,Hakone,Domitory,2999,JPY,-
+2023/12/26,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/12/27,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/12/28,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/12/29,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/12/30,JPN,Kobe,ParentsHouse,0,JPY,-
+2023/12/31,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/1/1,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/1/2,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/1/3,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/1/4,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/1/5,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/1/6,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/1/7,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/1/8,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/1/9,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/1/10,JPN,Atami,Hotel,0,JPY,-
+2024/1/11,JPN,Atami,Hotel,0,JPY,-
+2024/1/12,JPN,Atami,Hotel,0,JPY,-
+2024/1/13,JPN,Atami,Hotel,0,JPY,-
+2024/1/14,JPN,Atami,Hotel,0,JPY,-
+2024/1/15,JPN,Atami,Hotel,0,JPY,-
+2024/1/16,JPN,Atami,Hotel,0,JPY,-
+2024/1/17,JPN,Atami,Hotel,0,JPY,-
+2024/1/18,JPN,Atami,Hotel,0,JPY,-
+2024/1/19,JPN,Atami,Hotel,0,JPY,-
+2024/1/20,JPN,Atami,Hotel,0,JPY,-
+2024/1/21,JPN,Atami,Hotel,0,JPY,-
+2024/1/22,JPN,Atami,Hotel,0,JPY,-
+2024/1/23,JPN,Atami,Hotel,0,JPY,-
+2024/1/24,JPN,Atami,Hotel,0,JPY,-
+2024/1/25,JPN,Atami,Hotel,0,JPY,-
+2024/1/26,JPN,Atami,Hotel,0,JPY,-
+2024/1/27,JPN,Atami,Hotel,0,JPY,-
+2024/1/28,JPN,Atami,Hotel,0,JPY,-
+2024/1/29,JPN,Atami,Hotel,0,JPY,-
+2024/1/30,JPN,Atami,Hotel,0,JPY,-
+2024/1/31,JPN,Atami,Hotel,0,JPY,-
+2024/2/1,JPN,Atami,Hotel,0,JPY,-
+2024/2/2,JPN,Atami,Hotel,0,JPY,-
+2024/2/3,JPN,Atami,Hotel,0,JPY,-
+2024/2/4,JPN,Atami,Hotel,0,JPY,-
+2024/2/5,JPN,Atami,Hotel,0,JPY,-
+2024/2/6,JPN,Atami,Hotel,0,JPY,-
+2024/2/7,JPN,Atami,Hotel,0,JPY,-
+2024/2/8,JPN,Atami,Hotel,0,JPY,-
+2024/2/9,JPN,Atami,Hotel,0,JPY,-
+2024/2/10,JPN,Atami,Hotel,0,JPY,-
+2024/2/11,JPN,Atami,Hotel,0,JPY,-
+2024/2/12,JPN,Atami,Hotel,0,JPY,-
+2024/2/13,JPN,Atami,Hotel,0,JPY,-
+2024/2/14,JPN,Atami,Hotel,0,JPY,-
+2024/2/15,JPN,Atami,Hotel,0,JPY,-
+2024/2/16,JPN,Atami,Hotel,0,JPY,-
+2024/2/17,JPN,Atami,Hotel,0,JPY,-
+2024/2/18,JPN,Atami,Hotel,0,JPY,-
+2024/2/19,JPN,Atami,Hotel,0,JPY,-
+2024/2/20,JPN,Atami,Hotel,0,JPY,-
+2024/2/21,JPN,Atami,Hotel,0,JPY,-
+2024/2/22,JPN,Atami,Hotel,0,JPY,-
+2024/2/23,JPN,Atami,Hotel,0,JPY,-
+2024/2/24,JPN,Atami,Hotel,0,JPY,-
+2024/2/25,JPN,Atami,Hotel,0,JPY,-
+2024/2/26,JPN,Atami,Hotel,0,JPY,-
+2024/2/27,JPN,Atami,Hotel,0,JPY,-
+2024/2/28,JPN,Atami,Hotel,0,JPY,-
+2024/2/29,JPN,Yokohama,Domitory,2078,JPY,-
+2024/3/1,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/2,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/3,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/4,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/5,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/6,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/7,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/8,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/9,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/10,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/11,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/12,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/13,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/14,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/15,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/16,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/17,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/18,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/19,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/20,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/21,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/22,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/23,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/24,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/25,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/26,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/27,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/28,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/29,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/30,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/3/31,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/4/1,JPN,Hiroshima,Domitory,1944,JPY,-
+2024/4/2,UNK,-,Airplane,0,JPY,-
+2024/4/3,TUR,istanbul,Domitory,350,TRY,-
+2024/4/4,TUR,Eskişehir,Domitory,2739,JPY,-
+2024/4/5,TUR,Ankara,Domitory,2707,JPY,-
+2024/4/6,TUR,Çorum,SingleRoom,13,EUR,-
+2024/4/7,TUR,Samsun,SingleRoom,720,TRY,-
+2024/4/8,TUR,Trabzon,SingleRoom,512,TRY,-
+2024/4/9,TUR,Erzurum,SingleRoom,15.73,EUR,-
+2024/4/10,GEO,batumi,Domitory,15,GEL,-
+2024/4/11,GEO,Kutaisi,Domitory,20,GEL,-
+2024/4/12,GEO,Tbilisi,Domitory,15.3,GEL,-
+2024/4/13,ARM,Yerevan,Domitory,2000,AMD,-
+2024/4/14,ARM,Gyumri,Domitory,4000,AMD,-
+2024/4/15,GEO,Tbilisi,Domitory,13.5,GEL,-
+2024/4/16,UNK,-,Airplane,0,JPY,-
+2024/4/17,IND,New Delhi,Domitory,1106,INR,-
+2024/4/18,IND,New Delhi,Domitory,1106,INR,-
+2024/4/19,IND,New Delhi,Airport,0,JPY,-
+2024/4/20,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/4/21,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/4/22,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/4/23,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/4/24,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/4/25,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/4/26,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/4/27,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/4/28,JPN,Kobe,ParentsHouse,0,JPY,-
+2024/4/29,JPN,Kobe,ParentsHouse,0,JPY,-

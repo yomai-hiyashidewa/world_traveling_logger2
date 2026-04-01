@@ -1,0 +1,8 @@
+node_modules/
+WEB/dist/
+WEB/node_modules/
+WEB/tsconfig.tsbuildinfo
+WEB/public/data/
+WEB/public/image/
+sources/**/obj/
+sources/**/bin/

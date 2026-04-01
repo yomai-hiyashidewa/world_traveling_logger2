@@ -1,0 +1,5 @@
+Transpotation,Start,-,-,-,End,-,-,-,-,-,-,-,-
+Type,Date,Countury,Place,Type,Date,Countury,Place,Type,Distance(KM),Time(Min),Price,Currency,Memo
+bed,ss,KKK,Osu,hat,DDD,UUU,as,table,ss,5.5,yy,JPU,-
+AirPlane,2022/5/17,JPN,Osaka,AirPort,2022/5/17,JPN,Tokyo,AirPort,537,60,10000,JPY,-
+AirPlane,2022/5/17,JPN,Tokyo,AirPort,2022/5/18,AUS,Sydney,AirPort,7821,590,37685,JPY,-

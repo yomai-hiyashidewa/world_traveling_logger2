@@ -1,0 +1,112 @@
+﻿<UserControl x:Class="WorldTravelLogger.Views.SideView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WorldTravelLogger.Views"
+             xmlns:converter="clr-namespace:WorldTravelLogger.Views.Converters"
+             xmlns:models="clr-namespace:WorldTravelLogger.Models"
+             xmlns:parts="clr-namespace:WorldTravelLogger.Views.Parts"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="200">
+    <Grid>
+        <Grid.Resources>
+            <converter:EnumDisplayConverter x:Key="EnumDisplayConv"/>
+            <BooleanToVisibilityConverter x:Key="BooleanToVisibility"/>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="6*"/>
+            </Grid.RowDefinitions>
+            <Grid Margin="0,0,10,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="7*"/>
+                </Grid.RowDefinitions>
+                <DockPanel Grid.Row="0" Margin="10,0,10,0">
+
+                    <CheckBox HorizontalAlignment="Left" 
+VerticalAlignment="Center" FontSize="20"
+FontWeight="Bold"
+Content="{Binding TotalCalcCountries}"
+               IsChecked="{Binding IsWorld,Mode=TwoWay}"
+/>
+                    <StackPanel>
+                        <CheckBox HorizontalAlignment="Left" VerticalAlignment="top" Content="with Japan"
+                                  IsChecked="{Binding IsWithJapan,Mode=TwoWay}" Visibility="{Binding IsWorldView,Converter={StaticResource BooleanToVisibility}}"/>
+                        <CheckBox HorizontalAlignment="Left" VerticalAlignment="Top" Content="only border" 
+                                  IsChecked="{Binding IsOnlyBorder,Mode=TwoWay}" Visibility="{Binding IsWorldView,Converter={StaticResource BooleanToVisibility}}"/>
+                    </StackPanel>
+                </DockPanel>
+                <GroupBox Grid.Row="1" Header="Moving" FontSize="15">
+                    <DataGrid IsReadOnly="True" Margin="10,10,10,0" ItemsSource="{Binding Movings}" />
+                </GroupBox>
+
+
+            </Grid>
+
+            <Grid Grid.Row="1" Margin="10,10,10,10" Visibility="{Binding IsWorldView,Converter={StaticResource BooleanToVisibility}}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="8*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                </Grid>
+                <parts:CountryListView x:Name="countryList"/>
+                <TextBlock Grid.Row="1" FontSize="15" HorizontalAlignment="Right" VerticalAlignment="Center" Text="{Binding RegionsCount}"/>
+            </Grid>
+
+            <Grid Grid.Row="1" Margin="10,10,10,10" Visibility="{Binding IsCountryMode,Converter={StaticResource BooleanToVisibility}}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel>
+                    <ComboBox ItemsSource="{Binding Countries}" SelectedItem="{Binding CurrentCountry,Mode=TwoWay}" IsEnabled="{Binding IsCountryMode}" FontSize="15">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Margin="10,0,10,0" Text="{Binding Converter={StaticResource EnumDisplayConv}}" TextTrimming="CharacterEllipsis" />
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                    <CheckBox Content="with cross border" FontSize="13" IsChecked="{Binding IsWithCrossBorder,Mode=TwoWay}" Checked="CheckBox_Checked"/>
+                    <CheckBox FontSize="15" HorizontalAlignment="Right" VerticalAlignment="Center" Content="{Binding RegionsCount}" IsChecked="{Binding IsRegion,Mode=TwoWay}"/>
+                    <GroupBox Header="Excange Rate">
+                        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding ExchangeRates}">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="currency" Binding="{Binding Currency,Converter={StaticResource EnumDisplayConv}}"/>
+                                <DataGridTextColumn Header="Yen" Binding="{Binding Rate}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+
+                    </GroupBox>
+
+                </StackPanel>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="8*"/>
+                    </Grid.RowDefinitions>
+                    <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Image Source="{Binding CountryFlagPath}"/>
+                    </Border>
+                    <ListView Grid.Row="1" ItemsSource="{Binding Regions}" SelectedItem="{Binding CurrentRegion,Mode=TwoWay}"/>
+                </Grid>
+
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Image Source="{Binding CountryImagePath}"/>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="WorldTravelLogger.Views.Parts.RouteRegionsViewPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WorldTravelLogger.Views.Parts"
+             xmlns:converter="clr-namespace:WorldTravelLogger.Views.Converters"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.Resources>
+            <converter:EnumDisplayConverter x:Key="EnumDisplayConv"/>
+            <BooleanToVisibilityConverter x:Key="BooleanToVisibility"/>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <DockPanel HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                <Border Visibility="{Binding EnableImage,Converter={StaticResource BooleanToVisibility}}" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Image Width="22" Height="15" Source="{Binding CountryFlagPath}"/>
+                </Border>
+                <TextBlock Margin="10,0,10,0" Text="{Binding Type,Converter={StaticResource EnumDisplayConv}}" TextTrimming="CharacterEllipsis" />
+            </DockPanel>
+            <TextBlock Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Bottom" Text="{Binding StartDate}"/>
+        </Grid>
+        <Border Grid.Row="1" BorderThickness="1" BorderBrush="Gray">
+            <local:RouteRegionMiniViewPanel x:Name="regionMiniPanel"/>
+        </Border>
+        <TextBlock Grid.Row="2" Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="top" Text="{Binding EndDate}"/>
+    </Grid>
+</UserControl>

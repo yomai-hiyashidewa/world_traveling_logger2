@@ -1,0 +1,75 @@
+﻿<UserControl x:Class="WorldTravelLogger.Views.TransportationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WorldTravelLogger.Views"
+             xmlns:converter="clr-namespace:WorldTravelLogger.Views.Converters"
+             xmlns:models="clr-namespace:WorldTravelLogger.Models"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.Resources>
+            <converter:EnumDisplayConverter x:Key="EnumDisplayConv"/>
+            <BooleanToVisibilityConverter x:Key="BoolToVisibility"/>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="7*"/>
+        </Grid.RowDefinitions>
+        <DataGrid Grid.Row="0" 
+                  AutoGenerateColumns="False" 
+                  IsReadOnly="True"
+                  FrozenColumnCount="1"
+                  ItemsSource="{Binding TypeTransportations}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Type" Binding="{Binding Type}"/>
+                <DataGridTextColumn Header="Count" Binding="{Binding Count}"/>
+                <DataGridTextColumn Header="Total" Binding="{Binding TotalCostString}"/>
+                <DataGridTextColumn Header="Max" Binding="{Binding MaxCostString}"/>
+                <DataGridTextColumn Header="Min" Binding="{Binding MinCostString}"/>
+                <DataGridTextColumn Header="Ave" Binding="{Binding AveCoastString}"/>
+                <DataGridTextColumn Header="Total d" Binding="{Binding TotalDistance}"/>
+                <DataGridTextColumn Header="Max d" Binding="{Binding MaxDistance}"/>
+                <DataGridTextColumn Header="Min d" Binding="{Binding MinDistance}"/>
+                <DataGridTextColumn Header="Ave d" Binding="{Binding AveDistance}"/>
+                <DataGridTextColumn Header="Total t" Binding="{Binding TotalTime}"/>
+                <DataGridTextColumn Header="Max t" Binding="{Binding MaxTime}"/>
+                <DataGridTextColumn Header="Min t" Binding="{Binding MinTime}"/>
+                <DataGridTextColumn Header="Ave t" Binding="{Binding AveTime}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="9*"/>
+            </Grid.RowDefinitions>
+            <ComboBox HorizontalAlignment="Right" 
+                      IsEnabled="{Binding EnableCurrentTransportationType}"
+                      ItemsSource="{Binding CurrentTransportationTypes}"
+                      SelectedItem="{Binding CurrentTransportationType,Mode=TwoWay}"/>
+            <DataGrid Grid.Row="1" 
+                      AutoGenerateColumns="False"
+                      IsReadOnly="True"
+                      IsEnabled="{Binding EnableCurrentTransportationType}"
+                      ItemsSource="{Binding Transportations}">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="start date" Binding="{Binding DateString}"/>
+                    <!--<DataGridTextColumn Header="start country" Binding="{Binding Country,Converter={StaticResource EnumDisplayConv}}" />-->
+                    <DataGridTextColumn Header="start region" Binding="{Binding Region}"/>
+                    <DataGridTextColumn Header="start place" Binding="{Binding StartPlace}"/>
+                    <DataGridTextColumn Header="end region" Binding="{Binding EndRegion}"/>
+                    <DataGridTextColumn Header="end place" Binding="{Binding EndPlace}"/>
+                    <DataGridTextColumn Header="cost" Binding="{Binding Price}"/>
+                    <DataGridTextColumn Header="currency" Binding="{Binding Currency,Converter={StaticResource EnumDisplayConv}}"/>
+                    <DataGridTextColumn Header="distance" Binding="{Binding Distance}"/>
+                    <DataGridTextColumn Header="time" Binding="{Binding Time}"/>
+                    <DataGridTextColumn Header="Yen cost" Binding="{Binding JPYPriceString}"/>
+                    <DataGridTextColumn Header="end date" Binding="{Binding EndDateString}" />
+                    <!--<DataGridTextColumn Header="end country" Binding="{Binding EndCountry,Converter={StaticResource EnumDisplayConv}}" />-->
+                    <DataGridTextColumn Header="memo" Binding="{Binding Memo}" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</UserControl>

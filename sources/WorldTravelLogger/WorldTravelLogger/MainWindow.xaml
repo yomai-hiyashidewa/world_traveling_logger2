@@ -1,0 +1,13 @@
+﻿<Window x:Class="WorldTravelLogger.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WorldTravelLogger"
+        xmlns:views="clr-namespace:WorldTravelLogger.Views"
+        mc:Ignorable="d" Closing="Window_Closing"
+        Title="World Traveling Logger" Height="600" Width="800">
+    <Grid>
+        <views:MainViewPanel x:Name="MainView"/>
+    </Grid>
+</Window>
